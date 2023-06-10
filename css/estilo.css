@@ -1,25 +1,41 @@
 body
 {
-    color: #2607d3 ;
+    color: #070707 ;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
     margin: 0;
     padding: 0;
 }
 #cabecera
-{   background: rgb(0, 37, 117);
+{  
+     background: rgb(54, 57, 63);
     box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.5);
     color: white;
-    font-weight: bold;
-    margin: 0;
-    padding: 0.5em;
+    margin: 0; 
+    padding: 0.8em;
+    
 }
 
-#cabecera #tagline
+#cabecera #tagline_1
 {
+    
     padding: 0 0 0 1em;
-    font-size: 0.8em;    
+    font-size: 1em;    
+    height: 1em;
+    text-align: center;
+    margin: auto;
+    font-weight: bold;
+    color: #ffffff;
+}
+#cabecera #tagline_1_1
+{
+    
+    padding: 0 0 0 1em;
+    font-size: 1em;    
+    height: 0.8em;
+    text-align: center;
+    margin: auto;
+    color: rgb(196, 196, 196);
 }
 
 #container 
@@ -31,11 +47,40 @@ body
     margin: 0 auto;
 }
 
+#parrafo
+{
+    font-size: 1em; 
+}
+
 #container h1
 {
-    font-size: 20px	 ;
+    font-size: 2em	 ;
 }
 #post
 {
-    padding: 1em;
+    padding: 5em;
+}
+.tabla
+{
+    width: 80%;
+    justify-content: center;
+    border-collapse: collapse;  
+    box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.5);
+    color: rgb(0, 0, 0);
+    margin: 0; 
+    padding: 0.8em;
+}
+
+.tabla th,
+.tabla td {
+  border: 1px solid black;
+  padding: 8px;
+}
+
+.tabla th {
+  background-color: #f2f2f2;
+}
+
+.tabla td {
+  text-align: center;
 }
